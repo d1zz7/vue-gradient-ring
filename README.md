@@ -10,6 +10,9 @@
 
 ## usage (example)
 ```javascript
+import GradientRing from 'vue-gradient-ring'
+```
+```html
 <GradientRing
 size="200"
 ring-height="30"
