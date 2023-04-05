@@ -13,7 +13,7 @@
 <GradientRing
 size="200"
 ring-height="30"
-:value="35"
+:value="75"
 :colors="['#B1E1FF', '#AFB4FF', '#9C9EFE', '#A66CFF']"
 />
 ```
