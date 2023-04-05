@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <GradientRing
+        size="200"
+        ring-height="30"
+        :value="75"
+        :colors="['#B1E1FF', '#AFB4FF', '#9C9EFE', '#A66CFF']"
+    />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GradientRing from './components/GradientRing.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    GradientRing
   }
 }
 </script>
@@ -24,5 +28,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
 }
 </style>

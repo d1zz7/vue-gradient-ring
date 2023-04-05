@@ -1,24 +1,41 @@
+<p align="center">
+  <img src="https://i.imgur.com/g9aU155.jpg" alt="vue gradient ring">
+</p>
+
 # vue-gradient-ring
+[CSS Gradient Ring](https://codepen.io/d1zz7/pen/JjaxZWo), [CSS Gradient Ring Loader](https://codepen.io/d1zz7/pen/ExeqVoJ)
 
-## Project setup
-```
-npm install
-```
+## install
+`npm i vue-gradient-ring`
 
-### Compiles and hot-reloads for development
+## usage (example)
+```javascript
+<GradientRing
+size="200"
+ring-height="30"
+:value="35"
+:colors="['#B1E1FF', '#AFB4FF', '#9C9EFE', '#A66CFF']"
+/>
 ```
-npm run serve
-```
+### result:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+![example](https://i.imgur.com/xt6Kg6f.jpg)
 
-### Lints and fixes files
-```
-npm run lint
-```
+## props
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+| name | info |
+| --- | --- |
+| size | ring size (default 200px) |
+| ringHeight | ring thickness (default 30px) |
+| deg | rotated degrees (default 0) |
+| colors | gradient color (default colors available) |
+| insideColor | color inside the ring (default #ffffff) |
+| secondColor | blank color (default #ffffff) |
+| value | progress value |
+| loading | soon.. |
+| transition | soon.. |
+
+
+## License
+
+MIT © [d1zz7](https://github.com/d1zz7)
